@@ -51,10 +51,11 @@ main{
     border-radius: 30px;
     margin-top: 20px;
     border: 1px solid rgba(90, 89, 89, 0.2);
+    box-shadow: 1px 1px 2px 2px rgba(90, 89, 89, 0);
 }
 #searchBox:hover{
     box-shadow: 1px 1px 2px 2px rgba(90, 89, 89, 0.3);
-    border: none;
+    border: 1px solid transparent;  /*transparent border so that the elements dont move on hovering */
 }
 #search{
     outline: none;
@@ -62,7 +63,7 @@ main{
 }
 button{
     padding: 10px;
-    border: none;
+    border: 1px solid transparent;
     margin: 20px 5px;
     color:rgb(90, 89, 89);
     border-radius: 6px;
